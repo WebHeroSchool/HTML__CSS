@@ -1,3 +1,31 @@
 .title {
     font-family: 'Roboto', sans-serif;
 }
+body {
+    margin: 0;
+}
+.wrapper {
+    margin: auto;
+    width: 80%;
+}
+.logo, .menu {
+    display: inline-block;
+    padding: 40px 0;
+}
+.logo {
+    margin-right: 63%;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+.menu {
+    display: flex;
+    align-items: center;
+}
+.menu__item {
+    padding: 0 13px;
+}
+.menu__item:last-child {
+    padding: 0;
+}
